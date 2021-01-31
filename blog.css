@@ -28,8 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	font-family: 'BioRhyme', 'Times new roman', serif;
+	font-size: 18px;
+	line-height:32px;
+	color: #333;
+}
+h1,h2 {
+	font-family: 'Space Mono', monospace, Arial;
+}
+h1{
+	font-size: 28.8px;
+}
+h2{
+	font-size: 25.6px;
+	color: #e5127d;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +63,11 @@ table {
 }
 .header{
     background-color: rgba(255,248,53,.3);
-
+}
+.header p{
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #8c8e9b;
 }
 .main{
     background-color: rgba(140,96,255,.3);
